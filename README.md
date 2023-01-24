@@ -7,7 +7,7 @@ SrotedArray(s) : O(logN)
 HashTable(h) : O(1) ~ O(N)
 ```
 
-
+## test
 ```
 iterate : 100
 s: 0.269ms
