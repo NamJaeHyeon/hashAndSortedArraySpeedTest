@@ -34,6 +34,6 @@ s: 331.658ms
 h: 19.657ms
 ```
 
-**hashtable seems to have won.**
+**Hashtable seems to have won.**
 
 
