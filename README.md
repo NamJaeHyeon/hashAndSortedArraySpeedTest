@@ -34,6 +34,6 @@ s: 331.658ms
 h: 19.657ms
 ```
 
-**It looks like hashTable won.**
+**hashtable seems to have won.**
 
 
