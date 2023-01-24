@@ -36,4 +36,4 @@ h: 19.657ms
 
 **Hashtable seems to have won.**
 
-
+**The access speed of the hash table was about 20 times faster than the access speed of the sorted array. (Strangely, the relationship between the two access speeds seemed to be linearly distributed, and it was assumed that only the 10,000-20,000th access was slower due to the execution environment. there is.)**
