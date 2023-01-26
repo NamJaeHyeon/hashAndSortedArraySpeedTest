@@ -17,18 +17,15 @@ selection speed test between hashTable and sortedArray
 결과적으로 해시 접근이 이진 탐색 접근보다 약 20배 정도 더 빨랐습니다.
 ```
 ```
-There are various data structures to use, such as hash table arrays.
-I needed a data structure with faster access.
-I wasn't sure which one was faster.
-Internally, binary search uses logN comparison operations.
-The hash uses 1+k (collision) operations.
-Theoretically, hashing is faster, but how fast is access in practice?
-I thought it was more important. Because I haven't looked at the hash algorithm.
-I guess I wasn't sure. using subway code
-I implemented a situation where I need to get a name value suitable for that code.
-In a dictionary, code values are used as keys and name values are used as values.
-In sorted arrays, binary search is used to access name values.
-As a result, the hash access was about 20 times faster than the binary search approach.
+The data structures that can be used are various, such as hash table arrays.
+I needed a data structure with faster access. I was not sure which one was faster.
+Internally, binary search uses logN comparison operations and hash uses 1+k (collision) operations.
+Theoretically, hash is faster, but I thought it was more important to see how fast the actual access was.
+I didn't examine the hash algorithm, so I wasn't sure.
+I implemented a situation where I had to use the subway station code to get the corresponding name value.
+In the dictionary, I used the code value as the key and the name value as the value,
+and in the sorted array, I used binary search to access the name value.
+As a result, hash access was about 20 times faster than binary search access.
 ```
 
 ## compare time complexity
