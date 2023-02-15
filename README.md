@@ -1,8 +1,7 @@
 # selection speed test "hashTable VS sortedArray"
-selection speed test between hashTable and sortedArray
 
 값을 탐색할때 b-tree를 사용할지 hashTable을 사용할지 이진탐색을 사용할지 고민하셨나요?
-제가 자바스크립트로 테스트 코드를 짜보았습니다.    
+Node.js 환경에서 테스트 코드를 짜보았습니다.    
 
 이론적으로는
 이진탐색의 탐색 속도가 b-tree의 탐색 속도보다 빠르며,
