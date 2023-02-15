@@ -1,4 +1,4 @@
-# selection speed test "hashTable VS sortedArray"
+# access speed test "hashTable VS sortedArray"
 
 값을 탐색할때 b-tree를 사용할지 hashTable을 사용할지 이진탐색을 사용할지 고민하셨나요?
 Node.js 환경에서 테스트 코드를 짜보았습니다.
